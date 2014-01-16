@@ -12,6 +12,8 @@
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <meta name="viewport" content="width=device-width" />
     <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
+        <link href="Content/bootstrap.min.css" rel="stylesheet" />
+
 </head>
 <body>
     <form runat="server">
@@ -37,6 +39,7 @@
         </Scripts>
     </asp:ScriptManager>
     <header>
+        
         <div class="content-wrapper">
             <div class="float-left">
                 <p class="site-title">
@@ -50,6 +53,7 @@
                         <li><a runat="server" href="~/">Home</a></li>
                         <li><a runat="server" href="~/About">About</a></li>
                         <li><a runat="server" href="~/Contact">Contact</a></li>
+                        <li><a runat="server" href="~/Table.aspx">Table Contents</a></li>
                     </ul>
                 </nav>
             </div>
@@ -69,5 +73,9 @@
         </div>
     </footer>
     </form>
+    
+    
+    
+
 </body>
 </html>
